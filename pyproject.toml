@@ -21,6 +21,7 @@ dependencies = [
     "scikit-learn>=1.0.2",
     "seaborn>=0.12.2",
     "statsmodels>=0.13.5",
+    "survive>=0.3",
     "tqdm>=4.67.1",
     "xlrd>=2.0.2",
 ]

@@ -710,6 +710,7 @@ dependencies = [
     { name = "scikit-learn" },
     { name = "seaborn" },
     { name = "statsmodels" },
+    { name = "survive" },
     { name = "tqdm" },
     { name = "xlrd" },
 ]
@@ -732,6 +733,7 @@ requires-dist = [
     { name = "scikit-learn", specifier = ">=1.0.2" },
     { name = "seaborn", specifier = ">=0.12.2" },
     { name = "statsmodels", specifier = ">=0.13.5" },
+    { name = "survive", specifier = ">=0.3" },
     { name = "tqdm", specifier = ">=4.67.1" },
     { name = "xlrd", specifier = ">=2.0.2" },
 ]
@@ -2281,6 +2283,21 @@ wheels = [
     { url = "https://files.pythonhosted.org/packages/81/68/dddd76117df2ef14c943c6bbb6618be5c9401280046f4ddfc9fb4596a1b8/statsmodels-0.14.6-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl", hash = "sha256:19b58cf7474aa9e7e3b0771a66537148b2df9b5884fbf156096c0e6c1ff0469d", size = 10339446, upload-time = "2025-12-05T23:10:28.503Z" },
     { url = "https://files.pythonhosted.org/packages/56/4a/dce451c74c4050535fac1ec0c14b80706d8fc134c9da22db3c8a0ec62c33/statsmodels-0.14.6-cp312-cp312-musllinux_1_2_x86_64.whl", hash = "sha256:81e7dcc5e9587f2567e52deaff5220b175bf2f648951549eae5fc9383b62bc37", size = 10368705, upload-time = "2025-12-05T23:10:44.339Z" },
     { url = "https://files.pythonhosted.org/packages/60/15/3daba2df40be8b8a9a027d7f54c8dedf24f0d81b96e54b52293f5f7e3418/statsmodels-0.14.6-cp312-cp312-win_amd64.whl", hash = "sha256:b5eb07acd115aa6208b4058211138393a7e6c2cf12b6f213ede10f658f6a714f", size = 9543991, upload-time = "2025-12-05T23:10:58.536Z" },
+]
+
+[[package]]
+name = "survive"
+version = "0.3"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "matplotlib" },
+    { name = "numpy" },
+    { name = "pandas" },
+    { name = "scipy" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/74/17/7743d4908c4668756d60945ee3f1c5c9fe8b0a35c962c8c7c62994fa03ab/survive-0.3.tar.gz", hash = "sha256:f4faee98bfc0b0c7a7f792eff10157f87fa55998e3809aa5f8256a729d717d58", size = 32421, upload-time = "2018-08-20T02:59:04.553Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/20/8a/137feff10eeccbee50afcb9db144f6c8173e74efa731b7e1498a9950836f/survive-0.3-py3-none-any.whl", hash = "sha256:766cbeec488399051ad90f461d79ff7b7abbc1cbc07d4704e20bc145b61b58bf", size = 37677, upload-time = "2018-08-20T02:59:03.282Z" },
 ]
 
 [[package]]
